@@ -1,0 +1,14 @@
+.customNav {
+  margin-top: 30px;
+  
+}
+
+.searchBar {
+  width: 25rem;
+}
+
+.searchBar:hover {
+  border: 1px solid white;
+  border-radius: 5px;
+  margin: 7px !important;
+}

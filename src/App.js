@@ -1,14 +1,20 @@
 import React from "react";
-import EmployeeCard from "./components/EmployeeCard";
+import Employee from "./components/Employee";
 import Wrapper from "./components/Wrapper";
-import Title from "./components/Title";
+import Header from "./components/Header";
+import SearchBar from "./components/SearchBar";
+
+import './App.css'
 
 function App() {
   return (
-    <Wrapper>
-      <Title />
-      <EmployeeCard />
-    </Wrapper>
+    <div>
+      <Header />
+      <Wrapper>
+        <SearchBar />
+        <Employee />
+      </Wrapper>
+    </div>
   );
 }
 
