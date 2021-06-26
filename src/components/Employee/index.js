@@ -5,7 +5,7 @@ const Employee = (props) => {
   return (
     <table className="table table-striped table-sortable text-center customTable">
       <thead>
-        <tr>
+        <tr className="tableHeader">
           <th scope="col">Image</th>
           <th scope="col" data-field="name" data-sortable="true">
             <span onClick={() => props.sortName("name", "last", "first")}>
@@ -36,6 +36,10 @@ const Employee = (props) => {
           );
         })}
       </tbody>
+      <tfoot>
+        <tr className="footer">
+        </tr>
+      </tfoot>
     </table>
   );
 };

@@ -2,3 +2,12 @@
   background-color: white !important;
   border-radius: 25px;
 }
+
+tr:last-child {
+  border-bottom: none !important;
+  border-radius: 25px !important;
+}
+
+.footer {
+  height: 35px;
+}

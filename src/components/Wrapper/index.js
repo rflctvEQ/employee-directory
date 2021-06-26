@@ -3,6 +3,8 @@ import SearchBar from "../SearchBar";
 import Employee from "../Employee";
 import API from "../../utils/API";
 
+import './style.css';
+
 class Wrapper extends Component {
   state = {
     search: "",
@@ -117,7 +119,7 @@ class Wrapper extends Component {
 
   render() {
     return (
-      <div>
+      <div className="wrapper">
         <SearchBar
           value={this.state.search}
           handleInputChange={this.handleInputChange}
